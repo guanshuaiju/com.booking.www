@@ -1,0 +1,561 @@
+/* 搜索栏 */
+.nav {
+    height: 109px;
+    background-color:#003580;
+}
+/* 左边 */
+.nav-left img {
+    float: left;
+    margin-top: 10px;
+}
+/* 右边文字图标 */
+.nav-right a i{
+    float: right;
+    color: aliceblue;
+    margin-top: 17px;
+    margin-left: 35px;
+    position: relative;
+}
+
+    /* 文字块 */ 
+.nav-one a {
+    margin-top: 9px;
+    float: right;
+    background-color:snow ;
+    height: 28px;
+    width: 40px;
+    border: 2px solid snow;
+    margin-left: 15px;
+    line-height: 28px;
+    text-align: center;
+    border-radius: 5px;
+}
+.nav-two a {
+    float: right;
+    height: 28px;
+    width: 90px;
+    background-color:#003580;
+    border: 2px solid snow;
+    color:snow;
+    line-height: 28px;
+    text-align: center;
+    margin-left: 24px;
+    border-radius: 5px;
+    margin-top: 7px;
+}
+.nav-one a:hover {
+    color: #3E98D8;
+}
+/* 导航栏功能文字 */
+.nav-txt a{
+    float: left;
+    color: #ccd7e6;
+    position: relative;
+    top: 77px;
+    left: -234px;
+    margin-left: 43px;
+}
+.nav-txt a:hover {
+   color: snow;
+}
+/* 2.搜索栏 */
+.search {
+    height: 260px;
+    background-color: #F7F7F7;
+    
+}
+.search-txt {
+    padding-top: 50px;
+    padding-bottom:26px;
+}
+.search-txt span {
+    font-size: 24px;
+    font-weight: bolder;
+}
+.search-txt p {
+    font-size: 12px;
+    color: #383838;
+}
+.search-one input {
+    float: left;
+    width: 548px;
+    height: 50px;
+    border: 4px solid #FEBB02;
+    /* padding-left: 50px; */
+}
+.search-two input {
+    float: left;
+    width: 160px;
+    height: 50px;
+    border: 4px solid #FEBB02;
+    border-left: 0;
+}
+.search-three input {
+    float: left;
+    width: 262px;
+    height: 50px;
+    border: 4px solid #FEBB02;
+    border-left: 0;
+}
+.search-four button {
+    float: left;
+    width: 103px;
+    height: 58px;
+    border: 4px solid #FEBB02;
+    background-color: #0077cc;
+    border-left: 0;
+    color: snow;
+}
+.search-kuang input{
+    float: left;
+    margin-top: 15px;
+
+}
+.search-kuang p {
+    float: left;
+    margin-top: 32px;
+    margin-left: 5px;
+}
+/* 3.图文介绍 */
+.picture-one {
+    margin-top: 33px;
+    background: url(../img/s2.webp) no-repeat;
+    float: left;
+    width: 548px;
+    height: 270px;
+    position: relative;
+}
+.picture-one h3 a i {
+    position: absolute;
+    float: left;
+    color: red;
+    left: 75px;
+    top: 25px;
+    font-size: 25px;
+}
+.picture-one h3 a {
+    display: inline-block;
+    margin-left: 14px;
+    margin-top: 22px;
+    font-size: 28px;
+    color: snow;
+}
+.picture-one span a  {
+    color: snow;
+    display: inline-block;
+    margin-left: 14px;
+    margin-top: 9px;
+}
+.picture-one a i {
+    position: relative;
+    left: 423px;
+    color: snow;
+    font-size: 24px;
+    top: -48px;
+}
+.picture-txt  {
+    height: 42px;
+    width: 50px;
+    background-color: #383838;
+    position: relative;
+    left: 479px;
+    top: 139px;
+    font-size: 15px;
+}
+.picture-txt  a {
+    color:snow;
+}
+.picture-two {
+    margin-top: 33px;
+    margin-left: 5px;
+    float: left;
+    background: url(../img/s1.webp) no-repeat;
+    height: 270px;
+    width: 540px;
+}
+.picture-two h3 a i {
+    position: relative;
+    float: left;
+    color: red;
+    left: 89px;
+    top: 3px;
+    font-size: 25px;
+}
+.picture-two h3 a {
+    display: inline-block;
+    margin-left: 12px;
+    margin-top: 22px;
+    font-size: 25px;
+    color: snow;
+}
+.picture-two span a  {
+    color: snow;
+    display: inline-block;
+    margin-left: 14px;
+    margin-top: 9px;
+}
+.picture-two a i {
+    position: relative;
+    left: 423px;
+    color: snow;
+    font-size: 24px;
+    top: -48px;
+}
+.picture-txt  {
+    height: 42px;
+    width: 50px;
+    background-color: #383838;
+    position: relative;
+    left: 479px;
+    top: 139px;
+    font-size: 15px;
+}
+.picture-txt  a {
+    color:snow;
+}
+/* 4.1.图文介绍 */
+.sence-one {
+    float: left;
+    margin-top: 15px;
+    background: url(../img/s3.jpg) no-repeat;
+    height: 200px;
+    width: 364px;
+}
+.sence-one a h2{
+    font-size: 25px;
+    margin-top: 22px;
+    margin-left: 15px;
+    color: snow;
+}
+.sence-one a p {
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 15px;
+    color: snow;
+}
+.sence-bgc {
+    background-color: #383838;
+    height: 47px;
+    width: 50px;
+    position: relative;
+    left: 303px;
+    top: 65px;
+}
+.sence-bgc a p {
+    font-size: 12px;
+    margin-left: 26px;
+    margin-bottom: 5px;
+}
+.sence-bgc a span {
+    font-size: 15px;
+    color: snow;
+    margin-left: 9px;
+}
+.sence-two {
+    float: left;
+    margin-left: 15px;
+    margin-top: 15px;
+    background: url(../img/s4.webp) no-repeat;
+    height: 200px;
+    width: 350px;
+}
+.sence-two a h2{
+    font-size: 25px;
+    margin-top: 22px;
+    margin-left: 15px;
+    color: snow;
+}
+.sence-two a p {
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 15px;
+    color: snow;
+}
+.sence-beijing {
+    background-color: #383838;
+    height: 47px;
+    width: 50px;
+    position: relative;
+    left: 295px;
+    top: 68px;
+}
+.sence-beijing a p {
+    font-size: 12px;
+    margin-left: 26px;
+    margin-bottom: 5px;
+}
+.sence-beijing a span {
+    font-size: 15px;
+    color: snow;
+    margin-left: 9px;
+}
+.sence-three {
+    background: url(../img/s5.webp) no-repeat;
+    float: left;
+    margin-left: 15px;
+    margin-top: 15px;
+    height: 200px;
+    width: 350px;
+}
+
+.sence-three a h2{
+    font-size: 25px;
+    margin-top: 22px;
+    margin-left: 15px;
+    color: snow;
+}
+.sence-three a p {
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 15px;
+    color: snow;
+}
+.sence-bei {
+    background-color: #383838;
+    height: 47px;
+    width: 50px;
+    position: relative;
+    left: 292px;
+    top: 70px;
+}
+.sence-bei a p {
+    font-size: 12px;
+    margin-left: 26px;
+    margin-bottom: 5px;
+}
+.sence-bei a span {
+    font-size: 15px;
+    color: snow;
+    margin-left: 9px;
+}
+/* <!-- 5.住宿户型 --> */
+.homestay span {
+    display:block;
+    margin-top: 36px;
+    margin-bottom: 18px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.homestay-one  {
+    float: left;
+    position: relative;
+}
+.homestay-one p {
+    margin-top: 18px;
+    font-size: 15px;
+    color: #2f2f2f;
+    font-weight: bolder;
+}
+.homestay-one h1 {
+    margin-top: 8px;
+    font-size: 11px;
+    color: #919191;
+}
+.homestay-one img {
+    margin-bottom: 10px;
+    margin-left: 15px;
+    float: left;
+    width: 204px;
+    height: 181px;
+}
+.homestay-one .one{
+    margin-left: 0px;
+    margin-bottom: 10px;
+}
+.homestay-one p , h1{
+    margin-left: 15px;
+}
+.homestay-tu {
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #f6f4ef;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 170px;
+    top: 75px;
+}
+.homestay-tu a {
+    line-height: 40px;
+    margin-left: 12px;
+    float: left;
+    font-size: 20px;
+}
+.homestay-tu:hover {
+    background-color: snow;
+}
+/* <!-- 6.短租民宿 --> */
+.boaeder h3 {
+    display: block;
+    font-weight: bolder;
+    margin-bottom: 22px;
+    font-size: 25px;
+    margin-top: 30px;
+}
+.boaeder img {
+    height: 240px;
+    width: 259px;
+}
+.boaeder-one {
+    margin-top: 18px;
+    float: left;
+    margin-left: 14px;
+}
+.boaeder-two {
+    margin-top: 18px;
+    float: left;
+    margin-left: 0px; 
+}
+.boaeder-txt .two {
+    color: #999999;
+}
+.boaeder-txt .three {
+    float: left; 
+    font-weight: bolder;
+}
+.boaeder-tu {
+    margin-top: 5px;
+    float: left;
+    border-radius: 30%;
+    width: 28px;
+    height: 28px;
+    background-color: #003580;
+}
+.boaeder-tu a {
+    line-height: 28px;
+    margin-left: 5px;
+    color: snow;
+}
+.boaeder-dian a {
+    margin-left: 9px;
+    float: left;
+    color: #003580;
+    margin-top: 12px;
+}
+.boaeder-dian s a {
+    float: left;
+    color: #707070;
+    margin-top: 12px;
+        position: relative;
+
+}
+.boaeder-biao {
+    border-radius: 50%;
+    /* display: inline-block; */
+    background-color: #f6f4ef;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 1029px;
+    top: 188px;
+}
+.boaeder-biao  a {
+    line-height: 40px;
+    margin-left: 12px;
+    float: left;
+    font-size: 20px;
+}
+/* 7.订阅电子报 */
+.report-discount {
+    margin-top: 38px;
+    border: 2px solid #e0e0e0;
+    height: 153px; 
+}
+.report-discount img {
+    float: left;
+    margin-top: 22px;
+    margin-left: 23px;
+    height: 96px;
+    width: 96px;
+}
+.report-discount p {
+    margin-top: 30px;
+    margin-left: 130px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.report-discount span {
+    font-size: 15px;
+    margin-left: 10px;
+}
+.report-discount input {
+    padding-left: 8px;
+    margin-top: 5px;
+    width: 500px;
+    height: 45px;
+    border: 1px solid #e0e0e0;
+}
+.report-discount 
+.report-kuang {
+    width: 90px;
+    height: 45px;
+    border-radius: 5px;
+    margin-left: 5px;
+    border: 1px solid #0077cc;
+    background-color:#ffffff;
+}
+/* 8.精彩下一站 */
+.splendid h3 {
+    display: block;
+    font-weight: bolder;
+    margin-bottom: 22px;
+    font-size: 25px;
+    margin-top: 30px;
+}
+.splendid-one {
+    float: left;
+    margin-left: 0px;
+    background: url(../img/bg1.webp)no-repeat;
+    width: 354px;
+    height: 320px;
+}
+.splendid-up {
+    float: left;
+    margin-left: 18px;
+    background: url(../img/bg2.webp)no-repeat;
+    width: 354px;
+    height: 320px;
+}
+.splendid-three {
+    float: left;
+    margin-left: 18px;
+    background: url(../img/bg3.webp)no-repeat;
+    width: 354px;
+    height: 320px;
+}
+.splendid-three h1 {
+    font-size: 20px;
+    color: snow;
+    position: relative;
+    left: -7px;
+    top: 236px;
+} 
+.splendid-three
+.splendid-txt {
+    font-size: 15px;
+    color: snow;
+}
+.splendid-one h1 {
+    font-size: 20px;
+    color: snow;
+    position: relative;
+    left: -7px;
+    top: 236px;
+}
+.splendid-one
+.splendid-two {
+    font-size: 15px;
+    color: snow;
+} 
+.splendid-up h1 {
+    font-size: 20px;
+    color: snow;
+    position: relative;
+    left: -7px;
+    top: 236px;
+}
+.splendid-up
+.splendid-txt {
+    font-size: 15px;
+    color: snow;
+} 
