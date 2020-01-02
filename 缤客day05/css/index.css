@@ -799,13 +799,13 @@
         margin-left: 0px;
     }
     .frame-weixin {
-        border: 1px solid #cce1ff;
+        /* border: 1px solid #cce1ff; */
         border-radius: 2px;
         margin-left: 20px;
         display: inline-block;
     }
     .frame-weixin i {
-        font-size: 30px;
+        font-size: 25px;
         color: #d8d8d8;
     }
     /* 13.底部列表 */
@@ -815,6 +815,9 @@
     .base li  {
         margin-top: 10px;
         padding-top: 5px;
+    }
+    .base li a:hover {
+        color: #b75f00;
     }
     .base div,
     .base .banxin{
@@ -846,12 +849,11 @@
         float: left;
     }
     .base-txt {
-        border: 1px solid red ;
-        height: 50px;             
-        /* #e9f0fa */
+        padding-top: 15px;
+        border: 1px solid #e9f0fa ;
+        height: 35px;             
         width: 100%;
         border-left: 0px solid #ffffff;
-        /* margin-top: 5px; */
         line-height: 15px;
     }
     .base-txt a {
@@ -859,4 +861,56 @@
     }
     .base-txt a:hover {
         color: orange;
+    }
+    /* 14.版权部分 */
+    .copyright a {
+        display: inline-block;
+        width: 100%;
+        margin-top: 50px;
+        text-align: center;
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+    .copyright span {
+        color: #383838;
+    }
+    .copyright a:hover{
+        color: #b75f00;
+    }
+    .copyright span:last-child {
+        display: inline-block;
+        width: 100%;
+        color: #838383;
+        margin-left: 50px;
+        margin-top: 35px;
+        text-align: center;
+        font-size: 15px;
+    }
+    .dibu-tupian img {
+        margin-top: 25px;
+        padding-left: 40px;
+        margin-left: 20px;
+    }
+    .dibu-tupian img:nth-child(1){
+        margin-left: 190px;
+    }
+    /* <!-- 16.固定---网页反馈 --> */
+    .guding-fankui {
+        width: 40px;
+        height: 75px;
+        background-color: #0077cc;
+        position: fixed;
+        left: 1852px;
+        top: 820px;
+    }
+    .guding-fankui i{
+        margin: 5px;
+        font-size: 30px;
+        color: #ffffff;
+    }
+    .guding-fankui span {
+        font-size: 15px;
+        font-weight: 700;
+        margin: 5px ;
+        color: #ffffff;
     }
