@@ -1,0 +1,717 @@
+/* 搜索栏 */
+.nav {
+    height: 109px;
+    background-color: #003580;
+}
+
+/* 左边 */
+.nav-left img {
+    float: left;
+    margin-top: 10px;
+}
+
+/* 右边文字图标 */
+
+
+.nav-right {
+    span {
+        color: #fff;
+        float: right;
+        margin-right: 80px;
+        margin-top: 15px;
+    }
+
+    .iconfont {
+        position: absolute;
+        right: 250px;
+        top: 10px;
+        float: right;
+        color: red;
+        font-size: 24px;
+
+
+    }
+}
+
+/* 文字块 */
+.nav-one a {
+    margin-top: 9px;
+    float: right;
+    background-color: snow;
+    height: 28px;
+    width: 40px;
+    border: 2px solid snow;
+    margin-left: 15px;
+    line-height: 28px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.nav-two a {
+    float: right;
+    height: 28px;
+    width: 90px;
+    background-color: #003580;
+    border: 2px solid snow;
+    color: snow;
+    line-height: 28px;
+    text-align: center;
+    margin-left: 24px;
+    border-radius: 5px;
+    margin-top: 7px;
+}
+
+.nav-one a:hover {
+    color: #3E98D8;
+}
+
+.bottom {
+    position: absolute;
+    // bottom: 0;
+    color: #fff;
+    margin-top: 80px;
+    margin-right: 30px;
+    color: rgba(255, 255, 255, 0.5);
+
+    span {
+        padding: 0 10px;
+    }
+
+    span:nth-child(1) {
+        margin: 0;
+    }
+
+    .iconfont {
+        margin-left: 20px;
+    }
+}
+
+/* 2.搜索栏 */
+.search {
+    height: 260px;
+    background-color: #F7F7F7;
+
+}
+
+.search-txt {
+    padding-top: 50px;
+    padding-bottom: 26px;
+}
+
+.search-txt span {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.search-txt p {
+    font-size: 12px;
+    color: #383838;
+    margin-top: 10px;
+}
+
+.search-one input {
+    float: left;
+    width: 548px;
+    height: 50px;
+    border: 4px solid #FEBB02;
+    /* padding-left: 50px; */
+
+}
+
+.search-two input {
+    float: left;
+    width: 160px;
+    height: 50px;
+    border: 4px solid #FEBB02;
+    border-left: 0;
+}
+
+.search-three input {
+    float: left;
+    width: 262px;
+    height: 50px;
+    border: 4px solid #FEBB02;
+    border-left: 0;
+}
+
+.search-four button {
+    float: left;
+    width: 103px;
+    height: 58px;
+    border: 4px solid #FEBB02;
+    background-color: #0077cc;
+    border-left: 0;
+    color: snow;
+}
+
+.search-kuang input {
+    float: left;
+    margin-top: 15px;
+
+}
+
+.search-kuang p {
+    float: left;
+    margin-top: 32px;
+    margin-left: 5px;
+}
+
+.photo {
+    width: 100%;
+    height: 150px;
+
+    ul {
+        width: 100%;
+        overflow: hidden;
+
+        li {
+            float: left;
+            width: 12.5%;
+            margin-top: 50px;
+            text-align: center;
+
+            // line-height: 200px;
+            img {
+                width: 100%;
+                height: 50px;
+
+            }
+        }
+    }
+}
+
+.city {
+    width: 100%;
+    height: 800px;
+
+    .top {
+        font-size: 24px;
+    }
+
+    .bottom {
+
+        width: 100%;
+        margin-top: 20px;
+
+        ul {
+            width: 100%;
+            overflow: hidden;
+
+            li {
+
+                width: 31%;
+                float: left;
+                padding: 10px 10px;
+
+
+                a {
+                    position: relative;
+                    width: 100%;
+                    // margin-left: 10px;
+
+                    img {
+                        width: 100%;
+                    }
+
+                    h2 {
+                        font-size: 18px;
+                        margin-top: 5px;
+                        margin-bottom: 5px;
+                    }
+
+                    span {
+
+                        margin-top: 5px;
+                        margin-left: 0;
+                        padding: 2px 0px;
+                        color: #999;
+
+                    }
+
+                    .iconfont {
+                        position: absolute;
+                        bottom: 20px;
+                        left: -15px;
+                        font-size: 28px;
+
+                    }
+
+                    p {
+                        margin-left: 40px;
+                        margin-top: 10px;
+                        margin-bottom: 10px;
+                    }
+
+                    s {
+                        color: #1682cf;
+
+                    }
+                }
+
+
+            }
+        }
+    }
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background-color: #ffedd9;
+
+    h1 {
+        font-size: 24px;
+        padding-top: 50px;
+        margin-bottom: 15px;
+    }
+
+    span {
+        color: #000;
+
+    }
+
+    ul {
+        width: 100%;
+        overflow: hidden;
+        margin-top: 30px;
+
+        li {
+            width: 25%;
+            float: left;
+            text-align: center;
+
+            .iconfont {
+
+                top: 16px;
+                margin-left: -227px;
+                font-size: 38px;
+                color: #f07c00;
+            }
+
+            h3 {
+                position: absolute;
+                top: 142px;
+                margin-left: 45px;
+                font-size: 14px;
+
+            }
+
+        }
+    }
+}
+
+.banner1 {
+    position: relative;
+    width: 100%;
+    margin-top: 30px;
+    height: 250px;
+    margin-bottom: 50px;
+
+    .left {
+        width: 250px;
+        height: 250px;
+        background-color: #f7f7f7;
+
+        h1 {
+            font-size: 20px;
+            padding: 30px 30px;
+            // margin-left: 20px;
+        }
+    }
+
+    .right {
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-left: 250px;
+
+        ul {
+            width: 100%;
+            overflow: hidden;
+
+            li:last-child {
+                border-bottom: 1px solid #ccc;
+                background-color: #f7f7f7;
+            }
+
+            li {
+                width: 800px;
+                float: left;
+                border-top: 1px solid #ccc;
+                border-right: 1px solid #ccc;
+                padding: 15px 20px;
+
+                span {
+                    color: #000;
+
+                }
+
+                .iconfont {
+                    float: right;
+                }
+            }
+        }
+    }
+}
+
+
+.banner2 {
+    width: 100%;
+    height: 550px;
+
+    .top {
+        font-size: 24px;
+    }
+
+    .bottom {
+        width: 100%;
+        margin-top: 20px;
+
+        ul {
+            width: 100%;
+            overflow: hidden;
+
+            li {
+                position: relative;
+                width: 23%;
+                float: left;
+                padding: 0 10px;
+
+                img {
+
+                    width: 100%;
+                }
+
+                h1 {
+                    position: absolute;
+                    bottom: 30px;
+                    left: 26px;
+                    z-index: 1;
+                    color: #fff;
+                    font-size: 16px;
+                }
+
+                span {
+                    position: absolute;
+                    bottom: 16px;
+                    left: 16px;
+                    z-index: 1;
+                    color: #fff;
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
+
+
+/* <!-- 10.方便省钱 --> */
+.service {
+    height: 250px;
+    width: 100%;
+    background-color: #001b42;
+    margin-top: 50px;
+}
+
+.service-help {
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 50px;
+    height: 120px;
+    width: 482px;
+    background-color: #ffffff;
+
+}
+
+.service-jingling {
+    position: relative;
+    top: -30px;
+    margin-top: -10px;
+    height: 48px;
+    width: 48px;
+    background-color: red;
+    border-radius: 50%;
+    background-image: url(https://ac-r.static.booking.cn/static/img/contact/cs/cs-icon-sprite/99267ba5bf99b4a12568ce570dd72e003be6ac5f.png);
+    background-position: 0 -52px;
+}
+
+.service-help span {
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-left: 58px;
+}
+
+.service-rexian {
+    float: left;
+}
+
+.service-help span:nth-child(2) {
+    font-size: 14px;
+    color: #8e8e8e;
+}
+
+.service-rexian span {
+    float: left;
+    margin-left: 100px;
+    color: #8e8e8e;
+    font-size: 16px;
+    position: relative;
+}
+
+.service-rexian {
+    float: right;
+    position: absolute;
+    left: -13px;
+    top: 110px;
+}
+
+.service-rexian a {
+    display: inline-block;
+    margin-left: 60px;
+    font-size: 16px;
+    color: #0077cc;
+    position: relative;
+    font-weight: 700;
+}
+
+.shengqian span {
+    margin-top: -120px;
+    margin-right: 280px;
+    font-size: 20px;
+    float: right;
+    color: #ffffff;
+}
+
+.shengqian h2 {
+    float: right;
+    color: #bdbdbd;
+    margin-right: 245px;
+    margin-top: -92px;
+    font-size: 15px;
+}
+
+.shengqian input {
+    padding-left: 8px;
+    font-size: 18px;
+    float: right;
+    width: 375px;
+    height: 48px;
+    margin-top: -60px;
+    margin-right: 152px;
+    border-radius: 5px;
+}
+
+.shengqian button {
+    float: right;
+    width: 160px;
+    height: 52px;
+    border: 1px solid #0077cc;
+    background-color: #0077cc;
+    margin-top: -60px;
+    margin-right: -13px;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.shengqian-kaung {
+    margin-right: 270px;
+}
+
+.shengqian-kaung input {
+    float: right;
+    margin-right: 5px;
+}
+
+.shengqian-kaung s {
+    float: right;
+    color: #ffffff;
+    font-size: 10px;
+}
+
+/* 11.上线我的住宿 */
+.zhusu {
+    background-color: #003580;
+    height: 60px;
+    width: 100%;
+    padding-top: 20px;
+
+}
+
+.zhusu-shangxian {
+    margin: 0 auto;
+    height: 28px;
+    width: 110px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    padding: 0 auto;
+}
+
+.zhusu-shangxian a {
+    color: #ffffff;
+    line-height: 28px;
+    margin-left: 15px;
+}
+
+/* 12.边框+链接 */
+.frame {
+    height: 45px;
+    width: 100%;
+    background-color: #003580;
+    border: 1px solid #537bb4;
+}
+
+.frame a {
+    font-size: 15px;
+    line-height: 45px;
+    margin-left: 20px;
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+.frame a:nth-child(1) {
+    margin-left: 0px;
+}
+
+.frame-weixin {
+    /* border: 1px solid #cce1ff; */
+    border-radius: 2px;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.frame-weixin i {
+    font-size: 25px;
+    color: #d8d8d8;
+}
+
+/* 13.底部列表 */
+.base a {
+    color: #0077cc;
+}
+
+.base li {
+    margin-top: 10px;
+    padding-top: 5px;
+}
+
+.base li a:hover {
+    color: #b75f00;
+}
+
+.base div,
+.base .banxin {
+    overflow: hidden;
+}
+
+.base-one {
+    float: left;
+}
+
+.base-two {
+    margin-left: 155px;
+    float: left;
+}
+
+.base-three {
+    margin-left: 165px;
+    float: left;
+
+}
+
+.base-four {
+
+    margin-left: 185px;
+    float: left;
+}
+
+.base-five {
+    margin-left: 70px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.base-two ul {
+    float: left;
+}
+
+.base-txt {
+    padding-top: 15px;
+    border: 1px solid #e9f0fa;
+    height: 35px;
+    width: 100%;
+    border-left: 0px solid #ffffff;
+    line-height: 15px;
+}
+
+.base-txt a {
+    color: black;
+}
+
+.base-txt a:hover {
+    color: orange;
+}
+
+/* 14.版权部分 */
+.copyright a {
+    display: inline-block;
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.copyright span {
+    color: #383838;
+}
+
+.copyright a:hover {
+    color: #b75f00;
+}
+
+.copyright span:last-child {
+    display: inline-block;
+    width: 100%;
+    color: #838383;
+    margin-left: 50px;
+    margin-top: 35px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.dibu-tupian img {
+    margin-top: 25px;
+    padding-left: 40px;
+    margin-left: 20px;
+}
+
+.dibu-tupian img:nth-child(1) {
+    margin-left: 190px;
+}
+
+/* <!-- 16.固定---网页反馈 --> */
+.guding-fankui {
+    width: 40px;
+    height: 75px;
+    background-color: #0077cc;
+    position: fixed;
+    left: 1852px;
+    top: 820px;
+}
+
+.guding-fankui i {
+    margin: 5px;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.guding-fankui span {
+    font-size: 15px;
+    font-weight: 700;
+    margin: 5px;
+    color: #ffffff;
+}
