@@ -1,0 +1,138 @@
+body {
+    background-color: #f4f7fc;
+    /* height: 50px; */
+}
+.banxin {
+    width: 380px;
+    /* height: 300px; */
+    background-color: #ffffff;
+}
+.top {
+    padding-top: 40px;
+}
+.top-logo {
+    margin-left: 20px;
+}
+.top-logo h1 {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.top-logo p {
+    font-size: 13px;
+    margin-top: 15px;
+}
+/* 2.手机号码 */
+.phone-one {
+    padding-top: 20px;
+    margin-left: 50px;
+    height: 30px;
+}
+.phone-one span {
+    margin-left: 120px;
+    
+}
+.phone-one span:nth-child(1) {
+    margin-left: 22px;
+}
+.phone-one-bian {
+    overflow: hidden;
+    margin-left: 20px;
+    float: left;
+    border: 1px solid #0077cc;
+    width: 176px;
+    /* margin-left: 50px; */
+}
+.phone-two-bian  {
+    overflow: hidden;
+    margin-right: 20px;
+    margin: right;
+    float: right;
+    border: 1px solid #cccccc;
+    width: 160px;
+}
+.phone-haoma h2 {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+.phone-kuang input {
+    margin-left: 20px;
+    width: 333px;
+    height: 40px;
+    border: 2px solid #cccccc;
+    font-size: 15px;
+}
+.phone-kuang img {
+    width: 35px;
+    height: 30px;
+    position: relative;
+    left: 22px;
+    top: 42px;
+}
+.phone-denglu {
+    margin: 0 20px;
+    width: 345px;
+    height: 40px;
+    background-color: #0071c2;
+}
+.phone-denglu  a {
+    line-height: 40px;
+    margin-left: 129px;
+    font-size: 20px;
+    color: #ffffff;
+}
+.phone-huo {
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 1px solid #cccccc;
+    width: 150px;
+}
+b {
+    font-size: 13px;
+    position: relative;
+    top: 13px;
+    left: -167px;
+}
+.phone-deng img {
+    /* width: 80px;
+    height: 80px; */
+    margin-left: 55px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.phone-deng span {
+    margin-left: 120px;
+    font-size: 15px;
+}
+.phone-deng s {
+    font-size: 15px;
+    color:#0071c2;
+}
+.dibu-one {
+    padding-top: 10px;
+}
+
+.ban {
+    width: 380px;
+    /* background-color: pink; */
+    height: 10px;
+    margin-top: 15px;
+    margin-left: 775px;
+}
+
+/* 
+.zuihou span {
+    color: #0071c2;
+}
+.zuihuo-dibu {
+    margin-top: 20px;
+    border: 1px solid #cccccc;
+} */
+.ban img {
+    position: relative;
+    left: -140px;
+    top: 0px;
+}
